@@ -8,7 +8,8 @@ void main() {
   print("Welcome, $name");
 
   //creating the class object
-  var het = new Human(); // -> this will invoke the class and print it.
+  var het = new Human();
+  Human(); // -> this will invoke the class and print it.
   //this will print Instance of Human.
   print(het);
 }
